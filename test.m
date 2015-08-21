@@ -1,3 +1,5 @@
+% An example on how to use fderiv and fint functions
+
 clc;
 close all;
 clear all;

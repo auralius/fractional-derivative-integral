@@ -1,11 +1,12 @@
 function output = fderiv(x, alpha, n, h)
-% h      Sampling rate
-% alpha  Fractional order
-% x      Sampled function
-% n      Size of the memory
+% FDERIVE Calculate the derivative of x
+%    x      Sampled function
+%    alpha  Fractional order
+%    n      Size of the memory
+%    h      Sampling rate
 %
-% Please refer to http://www3.nd.edu/~msen/Teaching/UnderRes/FracCalc1.pdf
-% See equ. 32
+%    Please refer to http://www3.nd.edu/~msen/Teaching/UnderRes/FracCalc1.pdf
+%    See equ. 32
 
 N = length(x);
 output = zeros(1, N);

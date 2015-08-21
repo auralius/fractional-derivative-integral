@@ -1,4 +1,5 @@
-% test_animated_deriv
+% Performs derivation of x(t) = t, using alpha from 0 to 1, and animate
+% the result using a GIF file
 
 clc;
 close all;
