@@ -15,7 +15,7 @@ h3 = plot(0, 0, 'm');
 h2 = plot(0, 0, 'b');
 h4 = text(0.2, 1.8, '');
 
-legend('\alpha = 0', '0<\alpha< 1', '\alpha = 1')
+legend('\alpha = 0','\alpha = 1', '0<\alpha< 1')
 xlabel('t');
 ylabel('x(t)')
 title ('Fractional Derivative')
